@@ -5,7 +5,7 @@
 
 int main() {
     std::string input;
-    std::cout << "Digite sua data de nascimento (dd/mm/aaaa): ";
+    std::cout << "Digite novamente sua data de nascimento (dd/mm/aaaa): ";
     std::getline(std::cin, input);
 
     int day, month, year;
